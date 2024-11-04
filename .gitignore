@@ -1,0 +1,11 @@
+## remove anything with build in the name
+*build*
+## remove logs and temp files
+**/*.log
+**/*.tmp
+## remove Cmake files
+CMakeFiles
+CMakeCache.txt
+cmake_install.cmake
+## remove VSCode 
+.vscode
